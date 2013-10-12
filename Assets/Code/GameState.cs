@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class GameState : MonoBehaviour {
 
-	public GameState _instance;
+	static public GameState _instance;
 
 	[SerializeField] private int segmentAmount = 10;
 	[SerializeField] private GameObject generator;
