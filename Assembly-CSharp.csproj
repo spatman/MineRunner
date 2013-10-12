@@ -45,7 +45,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Code\ColliderType.cs" />
+     <Compile Include="Assets\Code\GameState.cs" />
      <Compile Include="Assets\Code\Player.cs" />
+     <Compile Include="Assets\Code\Rock.cs" />
      <Compile Include="Assets\LevelGenerator\Generator.cs" />
      <Compile Include="Assets\LevelGenerator\Segment.cs" />
      <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCamera.cs" />
