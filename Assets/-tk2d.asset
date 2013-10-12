@@ -21,6 +21,10 @@ MonoBehaviour:
     dataGUID: 
     managed: 0
     loadable: 0
+  - assetGUID: 3c9040fe68d752245a94a3f12ee07d7a
+    dataGUID: 
+    managed: 0
+    loadable: 0
   fontIndex:
   - assetGUID: 063b15d80dbb4604d890600a64c79cf8
     dataGUID: e7a6b09a73c6b2b4f8060096ddbd3b5e
@@ -430,6 +434,127 @@ MonoBehaviour:
     - 1372163593.97621
     - 0
     - 1372163593.97421
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: Miner
+    spriteCollectionGUID: 6618da1cf79b5534ab1e130369c28197
+    spriteCollectionDataGUID: 85d496900fb90244fb836b2e27de004d
+    spriteNames:
+    - miner0001
+    - miner0002
+    - miner0003
+    - miner0004
+    - miner0005
+    - miner0006
+    - miner0007
+    - miner0008
+    - miner0009
+    - miner0010
+    - miner0011
+    - miner0012
+    - miner0013
+    - miner0014
+    - miner0015
+    - miner0016
+    - miner0017
+    - miner0018
+    - throw_rock
+    - miner0001 1
+    - miner0002 1
+    - miner0003 1
+    - miner0004 1
+    - miner0005 1
+    - miner0006 1
+    - miner0007 1
+    - miner0008 1
+    - miner0009 1
+    - miner0010 1
+    - miner0011 1
+    - miner0012 1
+    - miner0013 1
+    - miner0014 1
+    - miner0015 1
+    - miner0016 1
+    - miner0017 1
+    - miner0018 1
+    spriteTextureGUIDs:
+    - de309017eb8fd1541aa5e074c506e911
+    - 2bb1565c3e3622148a80d9ffb9e0c7a7
+    - e8bb49d2ac9df464fbbe691e0ad2edef
+    - f27bb0e7e99f53c43866527c3a9e9209
+    - c9bb8e7b6bed41b428a5eba91bdb8cd6
+    - d144fac9b56bda643a32697d7c225b7e
+    - 7d23ae18152aa5b4bb0dc876289da324
+    - fac04d7f004f0134ba10ebb47bb07b7c
+    - eb1bde678c6eede43b5832521d7e23c2
+    - 381938b1d4790564eb2447d1ac6ef909
+    - 07a016ab43b172244b804fd7ef796d37
+    - 35df5620103128840976f80ebab203d3
+    - fb3d8da8a10f4f64e856266bb0dcc9b5
+    - ef160943eddad0e4c93b575d5ca821f0
+    - 7bf12b918445d9641b7318dab01a0da5
+    - 8832a1290230f734498a3758b8397206
+    - b81630bbe6f0c2045b85bfe9404963ec
+    - 502c5b051be30eb4c94d7a78103aa2d6
+    - 0cb802f6f2bc49a419f961ec86a9914b
+    - 267137958c214b949901242d5afc2ccb
+    - a6119fb8bdac59b44824bb7f0574c2d9
+    - 2cbdeceac458e374e9902be6ee6da338
+    - ee0196920eb3f6f42a0e0127659db299
+    - e0b8702de7334394c8624cef12ed97b1
+    - b11988e23ad601645a2e0be4cfc734b9
+    - 7c0693ae4af723347bbefe3b90abf190
+    - 53b9cd7528d127043ab7f5849dae647c
+    - e58dbd7e71ab44146aba9000f55a7368
+    - 26f3d0e03f6fdf248bcdfa427bce22c9
+    - b0ad1c47404bc9746a0d275825a0573b
+    - 5e1a409e989c36e4f86d7e84bfbda15d
+    - c9c265572f2fc1441a5eab44dbb97e16
+    - a77ee90c65ae9e04d9e8d0a0ecd612be
+    - f569362791e153b4b894729eceba6016
+    - 34e18d9f11b54c54f81d59d632844c34
+    - cdb0831d5e85f5a4c897620a12d278e4
+    - 423376a13a8555145862efc0ad2bb0ad
+    spriteTextureTimeStamps:
+    - 1381603180.65979
+    - 1381603180.68779
+    - 1381603180.69979
+    - 1381603180.71279
+    - 1381603180.72379
+    - 1381603180.73679
+    - 1381603180.74779
+    - 1381603180.75979
+    - 1381603180.8298
+    - 1381603180.8438
+    - 1381603180.8558
+    - 1381603180.8668
+    - 1381603180.8778
+    - 1381603180.8898
+    - 1381603180.9008
+    - 1381603180.9118
+    - 1381603180.9238
+    - 1381603180.9348
+    - 1381601523.13281
+    - 1381603105.91251
+    - 1381603105.94351
+    - 1381603105.95551
+    - 1381603105.96852
+    - 1381603105.97952
+    - 1381603105.99152
+    - 1381603106.00152
+    - 1381603106.01252
+    - 1381603106.02352
+    - 1381603106.03452
+    - 1381603106.04552
+    - 1381603106.05652
+    - 1381603106.06752
+    - 1381603106.07852
+    - 1381603106.08852
+    - 1381603106.10052
+    - 1381603106.11152
+    - 1381603106.12252
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

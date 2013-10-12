@@ -97,8 +97,8 @@ Transform:
   m_PrefabInternal: {fileID: 718424105}
   m_GameObject: {fileID: 538164530}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 176.701111, z: 720.648621}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 569021663}
   - {fileID: 1252425924}
@@ -216,7 +216,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 591089908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.36345196, y: -.494650364, z: -8.26572227}
+  m_LocalPosition: {x: 0, y: 0, z: -79.7530212}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e54113e5604435b8ae87c7754f2725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  library: {fileID: 11400000, guid: 18a39674a9b14f54b97497254e83b349, type: 2}
+  library: {fileID: 11400000, guid: 3c9040fe68d752245a94a3f12ee07d7a, type: 2}
   defaultClipId: 0
   playAutomatically: 0
   _sprite: {fileID: 0}
@@ -265,10 +265,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fac570381f34f647b768dc5a5aa1364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collection: {fileID: 11400000, guid: b5aec6ebd1a8ffc458a2e46a3236acab, type: 2}
+  collection: {fileID: 11400000, guid: 85d496900fb90244fb836b2e27de004d, type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
-  _spriteId: 16
+  _spriteId: 0
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -285,7 +285,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 32286741c6a400a44a969d7d318b1ca5, type: 2}
+  - {fileID: 2100000, guid: 4bdefc55c513c724c953ad58ed2aa619, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -305,8 +305,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 630640447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 217.280579, y: 104.515991, z: 323.890778}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 2096803891}
 --- !u!1001 &718424105
@@ -322,11 +322,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 41ab793882c0414429ff615731c6dd2b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 176.701111
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 41ab793882c0414429ff615731c6dd2b, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 720.648621
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 41ab793882c0414429ff615731c6dd2b, type: 2}
       propertyPath: m_LocalRotation.x
@@ -343,6 +343,18 @@ Prefab:
     - target: {fileID: 400002, guid: 41ab793882c0414429ff615731c6dd2b, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 41ab793882c0414429ff615731c6dd2b, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 41ab793882c0414429ff615731c6dd2b, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 41ab793882c0414429ff615731c6dd2b, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ab793882c0414429ff615731c6dd2b, type: 2}
@@ -443,7 +455,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2096803890}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .234619141, y: -1.87161255, z: -4.67700195}
+  m_LocalPosition: {x: .234619141, y: 325.463837, z: 240.713104}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 630640452}

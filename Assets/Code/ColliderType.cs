@@ -9,4 +9,6 @@ public class ColliderType : MonoBehaviour {
 		Obstacle
 	}
 
+	public Type _type;
+
 }
