@@ -3,22 +3,18 @@ using System.Collections;
 
 public class Segment : MonoBehaviour {
 	
-	[SerializeField] private Vector2 start;
-	[SerializeField] private Vector2 end;
-
-	public Segment (Vector2 startPoint, Vector2 endPoint)
-	{
-		start = startPoint;
-		end = endPoint;
-	}
+	[SerializeField] private GameObject end;
 	
 	public Vector2 GetStartPoint()
 	{ 
-		return start;	
+		Vector2 result = new Vector2(transform.position.x, transform.position.y);
+		return result;	
 	}
 	
 	public Vector2 GetEndPoint()
 	{
-		return end;	
+		Vector2 result = new Vector2(end.transform.localPosition.x, end.transform.localPosition.y);
+		result *= end.transform.lossyScale.x;
+		return result;
 	}
 }

@@ -16,6 +16,7 @@ public class Generator : MonoBehaviour {
 			int random = Random.Range(0, segmentPrefabs.Length);
 			GameObject newSegment = (GameObject)Instantiate(segmentPrefabs[random], lastPos, Quaternion.identity);
 			lastPos += newSegment.GetComponent<Segment>().GetEndPoint();
+			
 			level.Add(newSegment);
 		}
 		
