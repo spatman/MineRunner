@@ -8,8 +8,14 @@ public class Player : MonoBehaviour {
 
 	Rigidbody _rb;
 
+	public bool _first;
+
+	void IsFirst() {
+
+	}
+
 	float GetSpeed() {
-		return 0;
+		return (_first) ? _speed_front : _speed_back;
 	}
 
 	void Awake() {
@@ -18,7 +24,8 @@ public class Player : MonoBehaviour {
 	
 	
 	void Update () {
-		_rb.MovePosition( new Vector3( GetSpeed()*Time.deltaTime, 0, 0 ) );
+		IsFirst();
+		//_rb.MovePosition( new Vector3( GetSpeed()*Time.deltaTime, 0, 0 ) );
 	}
 
 

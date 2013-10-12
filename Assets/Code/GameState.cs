@@ -3,17 +3,25 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class GameState : MonoBehaviour {
-	
+
+	public GameState _instance;
+
 	[SerializeField] private int segmentAmount = 10;
 	[SerializeField] private GameObject generator;
 	[SerializeField] private GameObject rockPrefab;
 	[SerializeField] private GameObject playerPrefab;
-	
-	private Player player1;
-	private Player player2;
+
+	public List<Player> _players;
+
+	/*private Player player1;
+	private Player player2;*/
 	private List<GameObject> rocks;
 	private List<GameObject> level;
-	
+
+	void Awake() {
+		_instance = this;
+	}
+
 	// Use this for initialization
 	void Start () {
 		// generate level
